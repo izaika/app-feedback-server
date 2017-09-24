@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
-  render() {
+  render () {
     return (
       <nav>
         <div className="nav-wrapper">
@@ -11,7 +11,7 @@ class Header extends Component {
           </ul>
         </div>
       </nav>
-    )
+    );
   }
 }
 
